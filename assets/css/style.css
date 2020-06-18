@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+/* Button “Read more” ist: #745cf9
+Die Farbe des Button:hover “Read more” ist: #5234f9
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+* {margin:0; padding:0}
+body {
+    font-size: 18px;
+}
+nav {
+    width: 100%;
+    height: 76px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+.nav-wrapper {
+    height: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: #666;
+    font-size: 1.4em;
+    font-weight: 200;
+}
+.logo:hover {
+    color: #333;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0 1.5em;
+}
+a {
+    color: #333;
+}
+a:hover {
+    color: #337ab7;
+}
+.sectionWrapper {
+    display: flex;
+    height: 95vh;
+    flex-direction: column;
+    justify-content: center;
+}
+section {
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    align-content: center;
+    padding: 0 5%;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 3vh 0;
+}
+.sectionWrapper div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.readMore {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    width: 15%;
+    background: #745cf9;
+    padding: 3vh 10px;
+    margin-right: 10px;
+    text-transform: uppercase;    
+}
+.readMore:hover {
+    background: #5234f9;
+    color: white;
+}
+.download {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    width: 15%;
+    background: none;
+    padding: 3vh 10px;
+    border: 2px solid white;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.download:hover {
+    background: white;
+    color: black;
+}
