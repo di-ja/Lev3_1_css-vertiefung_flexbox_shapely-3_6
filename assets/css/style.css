@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
-
-/* Button “Read more” ist: #745cf9
-Die Farbe des Button:hover “Read more” ist: #5234f9
-*/
-
 html{
     scroll-behavior: smooth;
 }
@@ -16,6 +11,7 @@ nav {
     height: 76px;
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
+    background: white;
 }
 .nav-wrapper {
     height: 95%;
@@ -57,7 +53,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
 }
-section {
+#bg {
     background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
 }
 h1 {
@@ -67,7 +63,7 @@ h1 {
     text-align: center;
     color: white;
     align-content: center;
-    padding: 0 5%;
+    padding: 30px 5% 0;
 }
 p {
     font-family: 'Raleway', sans-serif;
@@ -85,6 +81,7 @@ p {
 .readMore {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    font-size: 1rem;
     text-align: center;
     color: white;
     width: 15%;
@@ -100,6 +97,7 @@ p {
 .download {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    font-size: 1rem;
     text-align: center;
     color: white;
     width: 15%;
